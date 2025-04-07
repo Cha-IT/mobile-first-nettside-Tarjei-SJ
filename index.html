@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Min Mobile-Først Nettside</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="bilder/logo.webp" alt="Kaffekroken Café">
+    <nav>
+      <ul>
+        <li><a href="#home">Hjem</a></li>
+        <li><a href="#meny">Meny</a></li>
+        <li><a href="#order">Bestill</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <h2>Velkommen til Kaffekroken Café</h2>
+      <p>Oppdag vår deilige meny og bestill direkte fra mobilen.</p>
+    </section>
+    <section id="meny">
+      <h2>Meny</h2>
+      <div id="menyListe">
+        
+      </div>
+    </section>
+    <section id="order">
+      <h2>Din Bestilling</h2>
+      <ul id="order-list">
+        <!-- Bestillingsliste vil bli lagt til her -->
+      </ul>
+      <button id="submit-order">Send Bestilling</button>
+    </section>
+    <section id="contact">
+      <h2>Kontakt Oss</h2>
+      <p>Adresse: Kaffegata 25, 7056 Ranheim</p>
+      <p>Telefon: 464 91 253</p>
+      <embed id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d206.841822857903!2d10.532228390331182!3d63.432206637990106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sno!2sno!4v1743666162380!5m2!1sno!2sno" width="" height="" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </embed>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Kaffekroken Kafé</p>
+  </footer>
+  <script src="app.js" type="module"></script>
+</body>
+</html>

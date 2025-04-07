@@ -1,0 +1,32 @@
+[
+    {
+        "rett": "Croissant",
+        "beskrivelse": "En deilig smøraktig og sprø croissant.",
+        "pris": "49,-",
+        "bilde": "croissant.jpg"
+    },
+    {
+        "rett": "Avokado-toast",
+        "beskrivelse": "Ristet brød toppet med avokado, cherrytomater og en klype chili.",
+        "pris": "79,-",
+        "bilde": "avokado_toast.jpg"
+    },
+    {
+        "rett": "Blåbærmuffins",
+        "beskrivelse": "Saftig muffins fylt med ferske blåbær.",
+        "pris": "35,-",
+        "bilde": "blaabaermuffins.jpg"
+    },
+    {
+        "rett": "Kremet Tomatsuppe",
+        "beskrivelse": "En varm og kremet tomatsuppe servert med ferskt brød.",
+        "pris": "89,-",
+        "bilde": "tomatsuppe.jpg"
+    },
+    {
+        "rett": "Club Sandwich",
+        "beskrivelse": "En klassisk sandwich med kylling, bacon, salat og majones.",
+        "pris": "99,-",
+        "bilde": "club-sandwich.jpg"
+    }
+]
